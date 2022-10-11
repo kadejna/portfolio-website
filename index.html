@@ -2,23 +2,102 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Kade Na
+EMAIL: nakj@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>Kade's Portfolio</title>
+  <meta name="author" content="Kade Na">
+  <meta name="description" content="A portfolio for future job opportunities">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Google Fonts-->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=BIZ%20UDPMincho'>
+  <!--Google Icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--Bootstrap CSS-->
+  <!--Make sure each section is under a specific class declared in Bootstrap CSS to apply that style-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--Customized CSS-->
+  <!--This CSS was placed after Bootstrap CSS, so it could override it with my own style-->
+  <link rel="stylesheet" href="style.css">
+  <title>Kade Na</title>
 </head>
+
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <div id="header">
+    <div class="p-5 text-center">
+      <!--Heading-->
+      <h1>Kade Na's Portfolio</h1>
+    </div>
+  </div>
+
+  <div id="main">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <!--About Me-->
+          <h2>About Me <span class="material-icons">person</span></h2>
+          <p>Welcome to my portfolio! My name is Kade, and I am a junior pursuing a <strong>B.S. in Computer Science at the University of California, Irvine</strong> with a specialization in Intelligent Systems. </p>
+          <p>I am passionately interested in the interconnection between autonomous driving and artificial intelligence, as well as front-end software development, and am seeking internship opportunities relevant to these fields.</p>
+          <p>Outside of my academics, I enjoy calligraphy and tennis.</p>
+          <!--Image-->
+          <figure>
+            <img src="seattle.jpg" class="img-fluid" alt="Pike Place Market">
+            <figcaption>I am originally from Seattle, WA!</figcaption>
+          </figure>
+          <!--Line Break-->
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-sm-8">
+          <!--Links to Resume and LinkedIn-->
+          <h2>Links</h2>
+          <p><a href="resume.html" class="resume-link">Resume  <span class="material-icons">open_in_new</span></a> | <a href="https://www.linkedin.com/in/kade-n-8aaaa81b5/" class="linkedin-link">LinkedIn  <span class="material-icons">open_in_new</span></a></p>
+          <h2>Contact Information <span class="material-icons">mail</span></h2>
+          <p>Email: <a href="mailto:nakj@uci.edu" target="_blank">nakj@uci.edu</a> | Personal Email: <a href="mailto:kadejna@gmail.com" target="_blank">kadejna@gmail.com</a></p>
+          <!--Contact Form-->
+          <h2 class="mt-5">Contact Form</h2>
+          <p>Please feel free to contact me using the form below!</p>
+          <div class="container py-4">
+            <form id="contactForm">
+              <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" name="name">
+              </div> 
+              
+              <div class="mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" type="text" id="email" name="email">
+              </div>
+              
+              <div class="mb-3">
+                <label class="form-label" for="subject">Subject</label>
+                <input class="form-control" type="text" id="subject" name="subject">
+              </div>
+              
+              <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" style="height: 10rem;" ></textarea>
+              </div>
+              
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer of the page-->
+  <div id="footer">
+    <div class="mt-5 p-4 text-center">
+      <footer>
+      <p>Copyright (c) 2022 Kade Na</p>
+      </footer>
+    </div>
+  </div>
+
 </body>
 </html>

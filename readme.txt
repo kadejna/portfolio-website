@@ -10,40 +10,58 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/14
-- */1 Readme
-- */3 Basic HTML content
-- */3 Basic CSS styling
-- */1 Advanced feature
-- */3 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+14/14
+- 1/1 Readme
+- 3/3 Basic HTML content
+- 3/3 Basic CSS styling
+- 1/1 Advanced feature
+- 3/3 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
 
+- At least one image, with descriptive alt attribute
+- Appropriate headings and paragraph text
+- Links to external page 
+- Multiple pages, with appropriate navigation between them
+- Semantic HTML tags like footer 
+- Adding custom icons from Google Material Icons
 
 
 (b) CSS features
 
+- Modifying padding and margins to indent content and enhance readability 
+- Modifying link, text color, or other colors to be visually appealing
+- Leveraging Bootstrap CSS helpers
+- Adding custom font from Google Fonts with fallbacks 
 
 
 (c) Advanced features
 
+- A contact form which leaverages HTML forms
 
 
 3. How long, in hours, did it take you to complete this assignment?
 
-
+20 hours
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
+https://www.w3schools.com/css/
+https://www.w3schools.com/howto/howto_website_bootstrap5.asp
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+https://getbootstrap.com/docs/5.2/getting-started/introduction/
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+https://www.coursera.org/learn/build-portfolio-website-html-css/ungradedLti/BDxG6/build-your-portfolio-website-with-html-and-css
 
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+I did not consult with anyone except the TAs. 
 
 6. Is there anything special we need to know in order to run your code?
 
+No.
